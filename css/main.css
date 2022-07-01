@@ -468,16 +468,6 @@ img {
   display: flex;
 }
 
-.overlay {
-  max-width: 1600px;
-  height: 600px;
-  margin: 0px auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -559,18 +549,31 @@ img {
 }
 
 .hero {
-  padding: 200px 0;
+  padding: 118px 0px;
   background-color: var(--background-color);
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0px;
+  }
+}
 .hero__title {
   color: var(--primary-white-color);
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 .hero__btn {
   display: inline-block;
@@ -589,6 +592,27 @@ img {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 400px;
+  margin: 0px auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-mob-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (min-width: 768px) {
+  .overlay {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-tab-1x.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .overlay {
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img-desk-1x.jpg);
+  }
 }
 
 .feautere {
@@ -629,7 +653,13 @@ img {
 }
 
 .top {
+  display: none;
   padding-top: 0px;
+}
+@media screen and (min-width: 1200px) {
+  .top {
+    display: contents;
+  }
 }
 
 .work {

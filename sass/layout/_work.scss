@@ -1,5 +1,10 @@
 .top {
+	display: none;
 	padding-top: 0px;
+
+	@include desktop {
+		display: contents;
+	}
 }
 
 .work {
