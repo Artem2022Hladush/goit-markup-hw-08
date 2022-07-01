@@ -1,0 +1,25 @@
+.footer-soc-wrap {
+	margin-left: 70px;
+
+	&__text {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+	
+		color: var(--primary-white-color);
+		margin-bottom: 20px;
+	}
+}
+
+.footer-soc-link {
+	background-color: var(--footer-icon-soc-color);
+	color: var(--primary-white-color);
+}
+
+.footer-soc-icon {
+	fill: currentColor;
+}

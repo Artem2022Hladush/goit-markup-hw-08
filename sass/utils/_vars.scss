@@ -1,0 +1,23 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
+/* белый #FFFFFF */
+/* акцент  #2196F3 */
+/* rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #F5F4FA */
+/* #2F303A*/
+/* #AFB1B8 цвет иконок  */
+/* bg-color-clients #E5E5E5 */
+/* footer-icon-soc-color  rgba(255, 255, 255, 0.1)*/
+
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196F3;
+	--primary-white-color: #FFFFFF;
+	--footer-link: rgba(255, 255, 255, 0.6);
+	--background-color: #2F303A;
+	--secondary-bg-color: #F5F4FA;
+	--icon-color: #AFB1B8;
+	--color-clients: #E5E5E5;
+	--footer-icon-soc-color: rgba(255, 255, 255, 0.1);
+}

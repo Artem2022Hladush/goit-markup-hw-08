@@ -1,0 +1,25 @@
+@import  "./utils/vars";
+@import  "./base/common";
+@import  "./utils/visually-hiden";
+@import  "./base/reset";
+
+
+@import  "./component/container";
+@import  "./component/section" ;
+@import  "./component/logo";
+@import  "./component/soc";
+@import  "./component/footer-soc";
+@import  "./component/subscription";
+@import  "./component/filter-btn";
+@import  "./component/modal";
+@import  "./component/check";
+
+
+@import  "./layout/header";
+@import  "./layout/hero";
+@import  "./layout/feautere";
+@import  "./layout/work";
+@import  "./layout/team";
+@import  "./layout/clients";
+@import  "./layout/footer";
+@import  "./layout/project";
