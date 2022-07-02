@@ -1,20 +1,15 @@
-.footer {
+.footer-container {
 	background-color: var(--background-color) ;
-	padding-top: 60px; 
-	padding-bottom: 60px; 
-
-	&__container{
+	 
+	@include tablet {
 		display: flex;
-		align-items: baseline;
-		margin: 0 auto;
-		padding: 0 15px;
-		width: 1200px;
+		flex-wrap: wrap;
 	}
 }
 
 .footer-container__address {
-	display: block;
-	width: 231px;
+	text-align: center;
+	margin-bottom: 60px;
 }
 
 .footer-logo {
@@ -46,6 +41,8 @@
 	font-weight: 400;
 	text-decoration: none;
 	font-style: normal;
+	text-align: center;
+	letter-spacing: 0.03em;
 	width: 231px;
 	cursor: pointer;
 

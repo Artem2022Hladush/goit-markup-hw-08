@@ -1,5 +1,8 @@
 .footer-soc-wrap {
-	margin-left: 70px;
+	// margin-left: 70px;
+	margin-bottom:  60px;
+
+
 
 	&__text {
 		font-family: 'Roboto';
@@ -9,7 +12,7 @@
 		line-height: 1.14;
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
-	
+		text-align: center;
 		color: var(--primary-white-color);
 		margin-bottom: 20px;
 	}
