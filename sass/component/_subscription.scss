@@ -1,6 +1,5 @@
 .subscription {
-display: block;
-
+		display: block;
 
 	&__label {
 		display: block;
@@ -14,12 +13,20 @@ display: block;
 		color: var(--primary-white-color);
 		margin-bottom: 20px;
 		text-align: center;
+
+		@include desktop {
+			text-align: start;
+		}
 	}
 
 	&__form {
 		display: flex;
 		flex-direction: column;
 		
+
+		@include desktop {
+			flex-direction: row;
+		}
 	}
 
 	&__btn-text {
@@ -63,6 +70,16 @@ display: block;
 		letter-spacing: 0.03em;
 	
 		color: rgba(255, 255, 255, 0.6);
+	}
+
+	@include tablet {
+		width: 450px;
+	}
+
+	@include desktop {
+		width: 358px;
+		margin-bottom: 0px;
+		margin-right: 12px;
 	}
 }   
 

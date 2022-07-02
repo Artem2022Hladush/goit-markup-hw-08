@@ -1,10 +1,15 @@
 .footer-soc-wrap {
-	// margin-left: 70px;
 	margin-bottom:  60px;
 
-
+@include desktop {
+	margin-bottom: 0px;
+}
 
 	&__text {
+		@include desktop {
+			text-align: start;
+		}
+
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 700;

@@ -1,14 +1,45 @@
 .footer {
 	background-color: var(--background-color) ;
+
+	@include desktop {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+
+.footer-container {
+	@include tablet {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: baseline;
+	}
+
+	@include desktop {
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
 }
 
 .footer-container__address {
 	text-align: center;
 	margin-bottom: 60px;
+
+	@include desktop {
+		margin-bottom: 0px;
+		display: block;
+		text-align: start;
+	}
 }
 
 .footer-logo {
 	color: var(--primary-white-color); 
+	display: block;
+	margin-bottom: 20px;
+
+	@include desktop {
+		text-align: start;
+	}
 }
 
 .contact-list__link {
