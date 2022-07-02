@@ -1,10 +1,5 @@
-.footer-container {
+.footer {
 	background-color: var(--background-color) ;
-	 
-	@include tablet {
-		display: flex;
-		flex-wrap: wrap;
-	}
 }
 
 .footer-container__address {
