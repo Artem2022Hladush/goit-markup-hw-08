@@ -14,7 +14,7 @@
 </head>
 <body>
     <!--Шапка сайта-->
-     <header class="header">
+    <header class="header">
         <div class="container main-nav ">
                 <a href="./index.html" class="logo header-logo">
                     <span class="logo__web">Web</span>Studio
@@ -98,7 +98,7 @@
             <button  type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
         </section>
         <!--Преимущества-->
-         <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="section-title visually-hidden ">Особенности</h2>
                 
@@ -149,7 +149,7 @@
         
         </section> 
         <!--Чем мы занимаемся-->
-         <section class="section top">
+        <section class="section top">
            <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 
@@ -157,21 +157,34 @@
                     <li class="work__item">
                         <div class="work__wrap">
                             <picture>
-                                <source srcset="./images/des">
-                            </picture>
+                                <source 
+                                srcset="./images/desktop_applications.jpg 1x , 
+                                            ./images/desktop_applications_desk_2x.jpg 2x"
+                                            media="(min-width: 1200px)">
                             <img src="./images/desktop_applications.jpg" alt="Десктопные приложения" width="370" height="294">
+                            </picture>
                             <p class="work__text">Десктопные приложения</p>
                         </div>
                     </li>
                     <li class="work__item">
                         <div class="work__wrap">
+                            <picture>
+                                <source srcset="./images/mobile_applications.jpg 1x ,
+                                                        ./images/mobile_applications_2x.jpg 2x"
+                                                        media="(min-width: 1200px)">
                             <img src="./images/mobile_applications.jpg" alt="Мобильные приложения" width="370" height="294">
+                            </picture>
                             <p class="work__text">Мобильные приложения</p>
                         </div>
                     </li>
                     <li class="work__item">
                         <div class="work__wrap">
+                            <picture>
+                                <source srcset="./images/design_solutions.jpg 1x ,
+                                                        ./images/design_solutions_desk_2x.jpg 2x"
+                                                        media="(min-width: 1200px)">
                             <img src="./images/design_solutions.jpg" alt="Дизайнерские решения" width="370" height="294">
+                            </picture>
                             <p class="work__text">Дизайнерские решения</p>
                         </div>
                     </li>
@@ -180,13 +193,29 @@
         
         </section> 
         <!--Наша команда-->
-         <section class="section bg">
-           <div class="container">
+        <section class="section bg">
+            <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 
                 <ul class="team list">
                     <li class="team__item">
-                        <img  src="./images/igor_demyanenko.jpg" alt="Product Designer" width="270" height="260">
+                        <picture>
+                            <source 
+                            srcset="./images/ihor.jpg 1x ,
+                                        ./images/ihor-desk-2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+
+                            <source 
+                            srcset="./images/ihor-tab.jpg 1x ,
+                                        ./images/ihor-tab-2x.jpg 2x"
+                                        media="(min-width: 768px)">
+
+                            <source 
+                            srcset="./images/ihor-mob.jpg 1x ,
+                                        ./images/ihor-mob-2x.jpg 2x"
+                                        media="(min-width: 480px)">
+                            <img  src="./images/ihor.jpg" alt="Product Designer" width="450">
+                        </picture>
                             <div class="staff">
                                 <h3 class="staff__title">Игорь Демьяненко</h3>
                                 <p class="staff__text">Product Designer</p>
@@ -224,8 +253,24 @@
                         
                     </li>
                     <li class="team__item">
-                        <img  src="./images/olga_repina.jpg" alt="Frontend Developer" width="270" height="260">
-                       <div class="staff">
+                        <picture>
+                            <source 
+                            srcset="./images/olga_repina.jpg 1x ,
+                                        ./images/olga_repina_desk_2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+
+                            <source 
+                            srcset="./images/olga_repina_tab_1x.jpg 1x ,
+                                        ./images/olga_repina_tab_2x.jpg 2x"
+                                        media="(min-width: 768px)">
+
+                            <source 
+                            srcset="./images/olga_repina_mob_1x.jpg 1x ,
+                                        ./images/olga_repina_mob_2x.jpg 2x"
+                                        media="(min-width: 480px)">
+                        <img  src="./images/olga_repina.jpg" alt="Frontend Developer" width="450" >
+                        </picture>
+                        <div class="staff">
                             <h3 class="staff__title">Ольга Репина</h3>
                             <p class="staff__text">Frontend Developer</p>
                             <ul class="soc list">
@@ -258,11 +303,27 @@
                                     </a>
                                 </li>
                             </ul>
-                       </div>
+                        </div>
                     </li>
                     <li class="team__item">
-                        <img  src="./images/nikolai_tarasov.jpg" alt="Marketing" width="270" height="260">
-                       <div class="staff">
+                        <picture>
+                            <source 
+                            srcset="./images/nikolai_tarasov.jpg 1x ,
+                                        ./images/nikolai_tarasov_desk_2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+
+                            <source 
+                            srcset="./images/nikolai_tarasov_tab_1x.jpg 1x ,
+                                        ./images/nikolai_tarasov_tab_2x.jpg 2x"
+                                        media="(min-width: 768px)">
+
+                            <source 
+                            srcset="./images/nikolai_tarasov_mob_1x.jpg 1x ,
+                                        ./images/nikolai_tarasov_mob_2x.jpg 2x"
+                                        media="(min-width: 480px)">
+                        <img  src="./images/nikolai_tarasov.jpg" alt="Marketing" width="450">
+                        </picture>
+                        <div class="staff">
                             <h3 class="staff__title">Николай Тарасов</h3>
                             <p class="staff__text">Marketing</p>
                             <ul class="soc list">
@@ -295,11 +356,27 @@
                                     </a>
                                 </li>
                             </ul>
-                       </div>
+                        </div>
                     </li>
                     <li class="team__item">
-                        <img src="./images/mikhail_ermakov.jpg" alt="UI Designer" width="270" height="260">
-                       <div class="staff">
+                        <picture>
+                            <source 
+                            srcset="./images/mikhail_ermakov.jpg 1x ,
+                                        ./images/mikhail_ermakov_desk_2x.jpg 2x"
+                                        media="(min-width: 1200px)">
+
+                            <source 
+                            srcset="./images/mikhail_ermakov_tab_1x.jpg 1x ,
+                                        ./images/mikhail_ermakov_tab_2x.jpg 2x"
+                                        media="(min-width: 768px)">
+
+                            <source 
+                            srcset="./images/mikhail_ermakov_mob_1x.jpg 1x ,
+                                        ./images/mikhail_ermakov_mob_2x.jpg 2x"
+                                        media="(min-width: 480px)">
+                        <img src="./images/mikhail_ermakov.jpg" alt="UI Designer" width="450">
+                        </picture>
+                        <div class="staff">
                             <h3 class="staff__title">Михаил Ермаков</h3>
                             <p class="staff__text">UI Designer</p>
                             <ul class="soc list">
@@ -332,13 +409,13 @@
                                     </a>
                                 </li>
                             </ul>
-                       </div>
+                        </div>
                     </li>
                 </ul>
-           </div>
+            </div>
         </section> 
         <!--clients-->
-         <section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="section-title">Постоянные клиенты</h2>
 
@@ -389,11 +466,10 @@
             </div>
 
         </section> 
-       
     </main>
     
     <!--Футер-->
-     <footer class="footer section">
+    <footer class="footer section">
        <div class="footer-container container ">
             <div class="footer-container__address">
                 <a href="./index.html" class="logo footer-logo">
@@ -458,7 +534,7 @@
             </form>
        </div>
     </footer> 
-     <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
        <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
             <svg class="close-icon" width="18" height="18">
