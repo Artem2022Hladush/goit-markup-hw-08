@@ -1,5 +1,6 @@
 .header-logo {
 	color: var(--title-text-color);
+	padding: 16px 0;
 }
 
 .header {
@@ -213,6 +214,7 @@ color: var(--title-text-color);
 		font-weight: 500;
 		font-size: 34px;
 		line-height: 1.25;
+		text-decoration: none;
 	
 		letter-spacing: 0.02em;
 	
@@ -226,6 +228,7 @@ color: var(--title-text-color);
 	font-size: 24px;
 	line-height: 1.17;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 
 	color: var(--primary-text-color);
 }
